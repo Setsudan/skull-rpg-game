@@ -1,0 +1,65 @@
+0 - Bordure Chemin Haut-Gauche
+1 - Bordure Chemin Haut
+2 - Bordure Chemin Haut-Droite
+3 - Bordure Chemin Gauche
+4 - HERBE
+5 - Bordure Chemin Droit
+6 - Bordure Chemin Bas-Gauche
+7 - Bordure Chemin Bas
+8 - Bordure Chemin Bas-Droit
+9 - Bordure Chemin Coin Bas-Droit
+10 - Bordure Chemin Coin Bas-Gauche
+11 - Bordure Chemin Coin Haut-Droit
+12 - Bordure Chemin Coin Haut-Gauche
+13 - Herbe v1
+14 - Herbe v2
+15 - Bordure EAU coin bas-droit
+16 - Bordure EAU bas
+17 - Bordure EAU coin bas-gauche
+18 - Bordure EAU droite
+19 - EAU
+20 - Bordure EAU gauche
+21 - Bordure EAU haut-droit
+22 - Bordure EAU haut
+23 - Bordure EAU haut-gauche
+24 - Arrondis EAU haut-droit
+25 - Arrondis EAU haut-gauche
+26 - Arrondis EAU bas-gauche
+27 - Arrondis EAU bas-droit
+28 - Buisson v1
+29 - Buisson v2
+30 - Pierre v1
+31 - Pierre v2
+32-33-34 - Haut de l'arbre
+35-36-37 - Milieu de l'arbre
+38-39-40 - Bas de l'arbre
+42 - Toit maison haut milieu
+43 - Toit maison haut droite
+44 - Toit maison haut droite
+45 - Toit maison milieu
+46 - Toit maison droite
+47 - Milieu maison droite
+48 - Milieu maison
+49 - Milieu maison droite
+50 - Bas maison gauche
+51 - Bas maison milieu
+52 - Bas maison droite
+52 - Barrière connection droite & bas
+53 - Barrière connection gauche droite bas
+54 - Barrière connection gauche & bas
+55 - Barrière sans connection
+56 - Barrière connection  droite
+57 - Barrière connection droite & gauche
+58 - Barrière connection gauche
+59 - Barrière connection gauche pour portillon à droite
+60 - Portillon gauche
+61 - Portillon droite
+62 - Barrière connection droite pour portillon à gauche
+63- Feu de camp
+64 - Torches
+65 - Panneau
+66 - Fleurs jaune
+67 - 2 champignon
+68 - Champignon solo
+69 - mauvaise herbes v2
+70 - mauvaise herbes

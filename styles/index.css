@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;300;500;600;700&display=swap");
+:root {
+  font-family: "Sora", sans-serif;
+  overflow: hidden;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 600ms ease-in-out;
+  font-size: 18px;
+}
+
+@-webkit-keyframes musicPlayer {
+  0% {
+    height: 100%;
+  }
+  75% {
+    height: 25%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes musicPlayer {
+  0% {
+    height: 100%;
+  }
+  75% {
+    height: 25%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+body {
+  background-color: #62b04d;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+body canvas {
+  position: absolute;
+  align-self: center;
+  z-index: 0;
+}
+body #details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 100vh;
+  width: 25vw;
+  position: absolute;
+  padding: 0 2.5vw;
+  top: 0;
+  left: 0;
+  background: white;
+}
+body #details .location-details {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  border-bottom: #1d1d1d 3px solid;
+}
+body #details #inventory {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body #details #inventory .item {
+  height: 5vh;
+  width: 5vh;
+  border: #1d1d1d 1px solid;
+}
+body #playpause {
+  transform: rotate(180deg);
+  height: 5vh;
+  width: 3vh;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  align-items: stretch;
+  justify-content: space-between;
+}
+body #playpause div {
+  background: #1d1d1d;
+  height: 4vh;
+  width: 2px;
+  border-radius: 6px;
+}
+body .pause .bar-1,
+body .pause .bar-2,
+body .pause .bar-3 {
+  background-color: rgba(239, 239, 239, 0.4039215686);
+}
+body .play .bar-1 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out;
+          animation: musicPlayer 1600ms infinite ease-in-out;
+}
+body .play .bar-2 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.2s;
+          animation: musicPlayer 1600ms infinite ease-in-out 0.2s;
+}
+body .play .bar-3 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.4s;
+          animation: musicPlayer 1600ms infinite ease-in-out 0.4s;
+}
+body .play .bar-4 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.6s;
+          animation: musicPlayer 1600ms infinite ease-in-out 0.6s;
+}
+body .play .bar-5 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.8s;
+          animation: musicPlayer 1600ms infinite ease-in-out 0.8s;
+}
+body .play .bar-6 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 1s;
+          animation: musicPlayer 1600ms infinite ease-in-out 1s;
+}
+
+@media screen and (max-width: 760px) {
+  #game {
+    font-size: 2.5rem;
+  }
+  #game #playpause {
+    bottom: 2vh;
+    left: 2vh;
+  }
+}
+.House_Key {
+  background: url("https://lh3.googleusercontent.com/VjRLNcPxm8Mn3PhJnvCHGWFZjFoVRFE2sdr1f2wKo8HOojjWVTxEKFRaCbBrwdl_n5aQk8aY2We6GiiDjRyzxQ");
+  background-size: cover;
+  background-clip: border-box;
+}/*# sourceMappingURL=index.css.map */
+
+#rYes{
+  padding: 10px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 20px;
+  color: black;
+}
+#rNo{
+  margin-left: 5px;
+  background: transparent;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+}
